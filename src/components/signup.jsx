@@ -81,9 +81,7 @@ const Signup = () => {
       <CardHeader>
         <CardTitle>Signup</CardTitle>
         <CardDescription>
-          Create a new account if you haven&rsquo;t already <br/>
-          This is a demo project so you can login using &quot;user@example.com&quot; as Email
-          and &quot;user12&quot; as Password
+          Create a new account if you haven&rsquo;t already <br />
         </CardDescription>
         {error && <Error message={error?.message} />}
       </CardHeader>

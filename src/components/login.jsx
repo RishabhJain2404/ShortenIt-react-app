@@ -43,7 +43,7 @@ const Login = () => {
 
   useEffect(() => {
     console.log(data);
-    
+
     if (error === null && data) {
       fetchUser();
       navigate(`/dashboard?${longLink ? `createNew=${longLink}` : ""}`);
@@ -81,8 +81,6 @@ const Login = () => {
         <CardTitle>Login</CardTitle>
         <CardDescription>
           to your account if you already have one <br />
-          This is a demo project so you can login using
-          &quot;user@example.com&quot; as Email and &quot;user12&quot; as Password
         </CardDescription>
         {error && <Error message={error.message} />}
       </CardHeader>
