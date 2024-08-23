@@ -6,11 +6,12 @@ ShortenIt is a user-friendly web application that allows users to shorten long a
 
 ## Features:
 
-- Landing Page: The landing page welcomes users and prompts them to enter the long URL they want to shorten.
-- Authentication: Users are required to sign up or log in to access the URL shortening functionality. This ensures user privacy and security.
-- Dashboard: Upon successful login, users are redirected to their personalized dashboard. Here, they can view their total number of created links, total clicks on those links, and a list of all their shortened URLs. The dashboard also includes a filter functionality to search for specific links and a "Create New Link" option to generate new shortened URLs.
-- Link Details Page: Clicking on a specific link from the dashboard takes users to a detailed page. This page provides information about the original URL, the shortened URL, the date and time of creation, a QR code for easy scanning, and detailed statistics.
-- Statistics: The statistics section includes the total number of clicks on the shortened link, location data (number of clicks based on cities), and device information (percentage of clicks from different devices).
+- **Landing Page:** The landing page welcomes users and prompts them to enter the long URL they want to shorten.
+  ![Screenshot (243)](https://github.com/user-attachments/assets/28e12e89-486c-4e9c-9ad1-2b78ba13f16f)
+- **Authentication:** Users are required to sign up or log in to access the URL shortening functionality. This ensures user privacy and security.
+- **Dashboard:** Upon successful login, users are redirected to their personalized dashboard. Here, they can view their total number of created links, total clicks on those links, and a list of all their shortened URLs. The dashboard also includes a filter functionality to search for specific links and a "Create New Link" option to generate new shortened URLs.
+- **Link Details Page:** Clicking on a specific link from the dashboard takes users to a detailed page. This page provides information about the original URL, the shortened URL, the date and time of creation, a QR code for easy scanning, and detailed statistics.
+- **Statistics:** The statistics section includes the total number of clicks on the shortened link, location data (number of clicks based on cities), and device information (percentage of clicks from different devices).
 
 ## How It Works:
 
